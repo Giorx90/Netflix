@@ -1,0 +1,34 @@
+div {
+    display: flex;
+    color: black;
+    align-items: flex-start;
+    justify-content: space-between;
+    #short-logo{
+        width: 150px;
+    }
+    div{
+        padding: 10px;
+        height: 30px;
+        p{
+            height: 30px;
+            padding: 5px;
+            margin: 0;
+        }
+        input{
+            background-color: black;
+            color: white;
+            height: 25px;
+            width: 100px;
+        }
+        button{
+            background-color: black;
+            height: 30px;
+            width: 30px;
+            align-content: center;
+            img{
+                height: 15px;
+                width: 15px;
+            }
+        }
+    }
+}

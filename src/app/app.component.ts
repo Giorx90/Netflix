@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { actionFilms } from './models/films';
+import { animeFilms } from './models/films';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'netflix-app';
+  actionFilmsMain = actionFilms;
+  animeFilmsMain = animeFilms;
+
 }
