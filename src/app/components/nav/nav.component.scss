@@ -1,6 +1,5 @@
 div {
     display: flex;
-    color: black;
     align-items: flex-start;
     justify-content: space-between;
     #short-logo{
@@ -21,10 +20,12 @@ div {
             width: 100px;
         }
         button{
-            background-color: black;
+            background-color: #ff010f;
+            border-radius: 10px;
             height: 30px;
             width: 30px;
             align-content: center;
+            padding: 5px;
             img{
                 height: 15px;
                 width: 15px;

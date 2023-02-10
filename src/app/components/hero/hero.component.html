@@ -1,1 +1,18 @@
-<p>hero works!</p>
+<!-- <h1>{{filmsList.section}}</h1>
+<div class="scrollbar">
+    <ul>
+        <li *ngFor="let film of filmsList.films">
+            <img src="{{film.image}}" alt="{{film.title}}">
+        </li>
+    </ul>
+</div> -->
+
+<h1>{{filmsList.section}}</h1>
+<div class="scrollbar">
+    <ul>
+        <li *ngFor="let film of filmsList.films; index as i">
+            <p>{{i + 1}}</p><img src="{{film.image}}" alt="{{film.title}}">
+        </li>
+    </ul>
+</div>
+

@@ -1,4 +1,8 @@
 <h1>{{filmsList.section}}</h1>
-<ul *ngFor="let film in filmsList.films">
-    <li><img src="film.image.src" alt="film.title"></li>
-</ul>
+<div class="scrollbar">
+    <ul>
+        <li *ngFor="let film of filmsList.films">
+            <img src="{{film.image}}" alt="{{film.title}}">
+        </li>
+    </ul>
+</div>

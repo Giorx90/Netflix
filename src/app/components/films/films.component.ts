@@ -10,14 +10,8 @@ export class FilmsComponent {
   
   @Input()filmsList: Films = {
     section: "", 
-    films: {
-      title: "",
-      image: {
-        src: "",
-        alt: ""
-      }
-    }
-  };
+    films: []
+  } ;
 
   constructor() {
     

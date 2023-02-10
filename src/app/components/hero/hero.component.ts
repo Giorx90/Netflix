@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Films } from './../../models/interfaces';
 
 @Component({
   selector: 'app-hero',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./hero.component.scss']
 })
 export class HeroComponent {
+
+  @Input()filmsList: Films = {
+    section: "", 
+    films: []
+  } ;
+
+  constructor() {
+    
+  }
 
 }
